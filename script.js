@@ -1,6 +1,3 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    alert(`Username: ${username}\nPassword: ${password}`);
+document.getElementById('cta-button').addEventListener('click', function() {
+    alert('Thank you for getting started with us!');
 });
